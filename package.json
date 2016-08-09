@@ -1,0 +1,13 @@
+{
+  "name": "yokto",
+  "version": "0.1.0",
+  "author": {
+    "name": "Elshad Shirinov",
+    "email": "thereddog@gmx.net"
+  },
+  "description": "Dots Registration Server",
+  "license": "MIT",
+  "engines": {
+    "node": ">=4.2.0"
+  }
+}
