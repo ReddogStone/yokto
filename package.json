@@ -9,5 +9,10 @@
   "license": "MIT",
   "engines": {
     "node": ">=4.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/reddogstone/yokto.git"
+  },
+  "homepage": "https://github.com/reddogstone/yokto"
 }
