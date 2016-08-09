@@ -6,10 +6,7 @@ An HTTP library so minimal, it is barely visible!
 ``` js
 const http  = require('http')
 
-const yokto = require('yokto');
-const stack = yokto.stack;
-const finalizer = yokto.finalizer;
-const route = yokto.route;
+const {stack, route, finalizer} = require('yokto');
 
 http.createServer(stack([
   route.get('/ping', request => finalizer.end(200, 'pong'))
