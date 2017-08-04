@@ -27,7 +27,7 @@ const getRawBody = require('raw-body');
 
 http.createServer(stack([
 	route.post('/product', async function(request) {
-		const body = await getRawBody(request, 'utf8');
+		const body = JSON.parse(await getRawBody(request, 'utf8'));
 
 		if (body.message === 'Hello') {
 			return finalizer.end(200, JSON.stringify({ ok: true }));
